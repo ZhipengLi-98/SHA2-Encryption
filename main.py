@@ -1,5 +1,6 @@
 import SHA256
+import SHA512
 
 if __name__ == "__main__":
-    cryptor = SHA256.SHA256()
-    print(cryptor.encrypt("a".encode("utf-8")))
+    cryptor = SHA512.SHA512()
+    print(cryptor.encrypt(("").encode("utf-8")))
